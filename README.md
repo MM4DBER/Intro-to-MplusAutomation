@@ -1,2 +1,2 @@
-# Intro-to-MplusAutomation
-Introduction to MplusAutomation
+# Intro-to-Mplus
+Introduction to Mplus 

@@ -1,0 +1,11 @@
+TITLE:
+PRACTICE 01 - Explore descriptives (TYPE = BASIC;)
+DATA:
+FILE = "/Users/agarber/github/Intro-to-MplusAutomation/mplus_files/basic_example.dat";
+ 
+VARIABLE:
+NAMES = Enjoy Useful Logical Job Adult Female; 
+ MISSING=.;
+ usevar= Enjoy Useful Logical Job Adult Female;
+ANALYSIS:
+type = basic; 

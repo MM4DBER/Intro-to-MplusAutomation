@@ -1,0 +1,13 @@
+TITLE:
+PRACTICE 02 - Explore descriptives for female observation subset
+DATA:
+FILE = "/Users/agarber/github/Intro-to-MplusAutomation/mplus_files/fem_basic.dat";
+ 
+VARIABLE:
+NAMES = Enjoy Useful Logical Job Adult Female; 
+ MISSING=.;
+ usevar = Enjoy Useful Logical Job Adult Female;
+   
+   useobs = Female == 1; !!! subset observations that report female in analysis !!!
+ANALYSIS:
+type = basic;
